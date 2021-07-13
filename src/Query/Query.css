@@ -1,0 +1,19 @@
+.header-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.content-wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+} 
+
+@media screen and (min-width: 530px) {
+  .content-wrapper {
+    width: 525px;
+  } 
+}

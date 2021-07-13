@@ -1,0 +1,58 @@
+li {
+  background: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li .bar {
+  line-height: 42px;
+  padding: 0 15px;
+  overflow: hidden;
+  border-bottom: 1px solid #eaeaea;
+}
+
+li .seat {
+  float: left;
+  font-size: 17px;
+  padding-right: 15px;
+  width: 70px;
+}
+
+li .price {
+  float: left;
+  font-size: 18px;
+  color: #f90;
+}
+
+li .price i {
+  font-style: normal;
+  font-size: 12px;
+  padding: 0 1px;
+}
+
+li .btn {
+  float: right;
+  width: 50px;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid #f90;
+  color: #f90;
+  border-radius: 3px;
+  text-align: center;
+  position: relative;
+  top: 7px;
+  font-size: 14px;
+}
+
+li .num {
+  float: right;
+  padding-right: 15px;
+  font-size: 12px;
+}
+
+li .channels {
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}

@@ -1,0 +1,13 @@
+{
+  "result": [{
+      "key": "Sydney",
+      "display": "Sydney"
+  }, {
+      "key": "Melbourn",
+      "display": "Melbourn"
+  }, {
+      "key": "Perth",
+      "display": "Perth"
+  }],
+  "searchKey": "key"
+}
