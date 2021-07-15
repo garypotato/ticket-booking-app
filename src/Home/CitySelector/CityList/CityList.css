@@ -1,14 +1,21 @@
 .city-list {
   margin-right: 30px;
+
+  background-color: var(--light);
 }
 
 .city-index {
-  width: 30px;
   position: fixed;
-  right: 0;
   top: 44px;
+  right: 0;
   bottom: 0;
+
   display: flex;
   flex-direction: column;
+
+  width: 30px;
+
   text-align: center;
+
+  background-color: var(--fourth);
 }

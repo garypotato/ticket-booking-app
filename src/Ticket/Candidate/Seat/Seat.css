@@ -1,58 +1,91 @@
 li {
-  background: #fff;
-  list-style: none;
   margin: 0;
   padding: 0;
+
+  list-style: none;
+
+  color: var(--primary);
+  background-color: var(--light);
+  ;
 }
 
 li .bar {
   line-height: 42px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+/* overflow: hidden; */
+
   padding: 0 15px;
-  overflow: hidden;
-  border-bottom: 1px solid #eaeaea;
+
+  border-top: 1px solid var(--primary);
 }
 
 li .seat {
-  float: left;
   font-size: 17px;
-  padding-right: 15px;
+
   width: 70px;
 }
 
 li .price {
-  float: left;
   font-size: 18px;
-  color: #f90;
+
+  color: var(--sed);
 }
 
 li .price i {
-  font-style: normal;
   font-size: 12px;
+  font-style: normal;
+
   padding: 0 1px;
 }
 
 li .btn {
-  float: right;
-  width: 50px;
-  height: 25px;
+  font-size: 14px;
   line-height: 25px;
-  border: 1px solid #f90;
-  color: #f90;
-  border-radius: 3px;
-  text-align: center;
+
   position: relative;
   top: 7px;
-  font-size: 14px;
+
+/* float: right; */
+
+  width: 50px;
+  height: 25px;
+  margin-top: -14px;
+
+  cursor: pointer;
+  text-align: center;
+
+  color: var(--sed);
+  border: 1px solid var(--sed);
+  border-radius: 3px;
 }
 
 li .num {
-  float: right;
-  padding-right: 15px;
   font-size: 12px;
+  font-weight: bold;
+
+  position: absolute;
+  top: -1px;
+  right: 27px;
+
+  transform: rotate(
+  -18deg
+  );
+
+  color: var(--sed);
 }
 
 li .channels {
-  height: 0;
   overflow: hidden;
-  transition: 0.5s;
+
+  height: 0;
+
+  transition: .5s;
+
+  background-color: var(--lighter);
 }

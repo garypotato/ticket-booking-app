@@ -8,7 +8,7 @@ function Month(props) {
   const { startingTimeInMonth, onSelect } = props;
 
   const startDay = new Date(startingTimeInMonth);
-  const monthList = ["Jaunary", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+  const monthList = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
   const monthDisplay = monthList[startDay.getMonth()]
 
   const currentDay = new Date(startingTimeInMonth);
@@ -49,7 +49,7 @@ function Month(props) {
               </tr>
           </thead>
           <tbody>
-              <tr className="data-table-weeks">
+              <tr className="date-table-weeks">
                   <th>Mon</th>
                   <th>Tue</th>
                   <th>Wed</th>

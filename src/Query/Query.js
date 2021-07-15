@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { connect } from 'react-redux';
 import { useCallback, useEffect, useMemo } from 'react';
 import URI from 'urijs';
@@ -147,7 +148,7 @@ const Query = (props) => {
           setArriveTimeEnd,
         },
         dispatch
-    );
+    );  
 }, []);
 
   return (

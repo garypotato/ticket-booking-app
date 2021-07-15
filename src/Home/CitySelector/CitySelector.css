@@ -1,64 +1,100 @@
 .city-selector {
   position: absolute;
+  z-index: 1000;
   top: 0;
   left: 0;
-  min-height: 100%;
-  background-color: #fff;
+
   width: 100%;
-  z-index: 1000;
+  min-height: 100%;
+
+  background-color: var(--fourth);
 }
 
 .city-search {
-  position: relative;
-  height: 34px;
-  line-height: 34px;
-  width: 100%;
-  background: #00a8bc;
-  color: #fff;
   font-size: 18px;
-  text-align: center;
+  line-height: 34px;
+
+  position: relative;
+
+  width: 100%;
+  height: 34px;
   padding: 5px 0;
+
+  text-align: center;
+
+  color: #fff;
+  background: var(--sed);
 }
 
 .search-back {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 42px;
-  height: 42px;
+  top: 12px;
+  left: 12px;
+
   cursor: pointer;
+
+  color: var(--light);
 }
 
 .search-input-wrapper {
   font-size: 12px;
+
   height: 32px;
-  border-radius: 5px;
-  margin-left: 42px;
   margin-right: 15px;
+  margin-left: 42px;
   padding-left: 5px;
-  background: #fff;
+
   text-align: left;
+
+  border-radius: 5px;
+  background: var(--light);
 }
 
 .search-input {
-  width: 80%;
   font-size: 12px;
-  height: 32px;
-  border: 0;
-  color: #333;
-  outline: 0;
-  background: 0;
-  vertical-align: top;
   line-height: 1.5;
+
+  width: 80%;
+  height: 32px;
   padding: 0;
   padding-left: 5px;
+
+  vertical-align: top;
+
+  color: var(--primary);
+  border: 0;
+  outline: 0;
+  background: 0;
+}
+
+/* *設置placeholder顏色 */
+.search-input::-webkit-input-placeholder {
+  font-size: 12px;
+
+  color: var(--thd);
+}
+
+.search-input:-moz-placeholder {
+  font-size: 12px;
+
+  color: var(--thd);
+}
+
+.search-input::moz-placeholder {
+  font-size: 12px;
+
+  color: var(--thd);
+}
+.search-input:-ms-input-placeholder {
+  font-size: 16px;
+
+  color: var(--thd);
 }
 
 .search-clean {
   position: absolute;
-  right: 20px;
-  top: 4px;
-  color: #ccc;
-  font-family: 'yofont';
-  font-style: normal;
+  top: 11px;
+  right: 23px;
+
+  color: var(--primary);
 }

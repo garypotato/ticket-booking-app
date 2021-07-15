@@ -6,11 +6,9 @@ const Ticket = memo(function Ticket(props) {
     const { price, type } = props;
     return (
         <div className="ticket">
-            <p>
-                <span className="ticket-type">{type}</span>
-                <span className="ticket-price">{price}</span>
-            </p>
             <div className="label">Seats</div>
+            <div className="ticket-type">{type}</div>
+            <div className="ticket-price">${price}</div>
         </div>
     );
 });

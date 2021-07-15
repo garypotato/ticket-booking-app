@@ -19,7 +19,7 @@ const initialState = {
   isLoadingCityData: false,
   isDateSelectorVisible: false,
   departDate: Date.now(),
-  highSpeed: false,
+  highSpeed: true,
 }
 
 const homeReducer = (state = initialState, action) => {

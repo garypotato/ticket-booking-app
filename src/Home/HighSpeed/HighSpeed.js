@@ -8,7 +8,7 @@ const HighSpeed = (props) => {
 
   return (
     <div className="high-speed">
-      <div className="high-speed-label">Metrol</div>
+      <div className="high-speed-label">Metro</div>
       <div className="high-speed-switch" onClick={() => toggle()}>
           <input type="hidden" name="highSpeed" value={highSpeed} />
           <div

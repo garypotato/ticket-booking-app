@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useCallback, useEffect, useMemo} from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
@@ -50,41 +51,33 @@ const CitySelector = (props) => {
   };
 
   return (
-    <div className={classnames('city-selector', { hidden: !show })}>
-      <div className="city-search">
-        <div className="search-back" onClick={() => onBack()}>
-          <svg width="42" height="42">
-            <polyline
-              points="25,13 16,21 25,29"
-              stroke="#fff"
-              strokeWidth="2"
-              fill="none"
+    <div  className={classnames('city-selector', { hidden: !show })}>
+      <div>
+        <div className="city-search">
+          <i className="search-back fas fa-arrow-left" onClick={() => onBack()} />
+          <div className="search-input-wrapper">
+            <input
+              type="text"
+              value={searchKey}
+              className="search-input"
+              placeholder="Search City"
+              onChange={e => setSearchKey(e.target.value)}
             />
-          </svg>
+          </div>
+          <i 
+            onClick={() => setSearchKey('')}
+            className = {classnames("far fa-times-circle search-clean", {
+              hidden: key.length ===0})
+            } />
         </div>
-        <div className="search-input-wrapper">
-          <input
-            type="text"
-            value={searchKey}
-            className="search-input"
-            placeholder="Seach City"
-            onChange={e => setSearchKey(e.target.value)}
-          />
-        </div>
-        <i
-          onClick={() => setSearchKey('')}
-          className={classnames('search-clean', {
-              hidden: key.length === 0,
-          })}
-        >
-          &#xf063;
-        </i>
+        {Boolean(key) && (
+          <Suggest searchKey={key} onSelect={key => onSelect(key)} />
+        )}
       </div>
-      {Boolean(key) && (
-        <Suggest searchKey={key} onSelect={key => onSelect(key)} />
-      )}
-      {outputCitySections()}
+      <div>{outputCitySections()}</div>
     </div>
+    
+    
   )
 }
 

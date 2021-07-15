@@ -4,9 +4,11 @@
 
 .range-slider .slider {
   position: relative;
+
   width: 60%;
   height: 1px;
   margin: 0 auto;
+
   background: #c7ced4;
 }
 
@@ -15,29 +17,35 @@
   z-index: 999;
   top: 0;
   left: 0;
+
   height: 1px;
-  background: #3cc;
+
+  background: var(--primary);
 }
 
 .range-slider .slider .slider-handle {
+  font-style: normal;
+
   position: absolute;
-  top: 50%;
-  margin-top: -13px;
-  margin-left: -17px;
   z-index: 1000;
+  top: 50%;
+
   width: 25px;
   height: 25px;
-  background: #fff;
-  border-radius: 50%;
-  border: 1px solid #d0d6db;
+  margin-top: -13px;
+  margin-left: -17px;
+
   cursor: pointer;
-  font-style: normal;
+
+  border: 1px solid var(--primary);
+  border-radius: 50%;
+  background: var(--thd);
 }
 
 .range-slider .slider .slider-handle span {
+  font-size: 15px;
+
   position: absolute;
   top: -23px;
   left: -6px;
-  font-size: 15px;
-  color: #666;
 }

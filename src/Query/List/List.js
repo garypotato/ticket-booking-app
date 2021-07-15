@@ -8,9 +8,11 @@ const List = (props) => {
   const { list } = props;
   return (
     <ul className="list">
+      <li className="spaces">No more Tickets</li>
         {list.map(item => (
           <ListItem {...item} key={item.trainNumber} />
         ))}
+        <li className="spaces">No more Tickets</li>
     </ul>
 );
 }

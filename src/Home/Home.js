@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import {useCallback, useMemo} from "react"
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';

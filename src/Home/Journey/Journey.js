@@ -19,7 +19,7 @@ const Journey = (props) => {
         />
       </div>
       <div className="journey-switch" onClick={() => exchangeFromTo()}>
-        <img src={switchImg} width="70" height="40" alt="switch" />
+        <img src={switchImg} width="70" height="40" alt="switch"/>
       </div>
       <div
         className="journey-station"

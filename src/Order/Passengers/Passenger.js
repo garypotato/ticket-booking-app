@@ -87,7 +87,7 @@ const Passenger = memo(function Passenger(props) {
                           }
                       />
                   </li>
-              )};
+              )}
               {!isAdult && (
                   <li className="item arrow">
                       <label className="label followAdult">Parent</label>

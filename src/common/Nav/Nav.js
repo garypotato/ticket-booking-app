@@ -15,23 +15,19 @@ const Nav = (props) => {
 
   return (
     <div className="nav">
-      <span
+      <i 
         onClick={prev}
-        className={classnames('nav-prev', {
+        className= {classnames("far fa-arrow-alt-circle-left nav-prev", {
             'nav-disabled': isPrevDisabled,
-        })}
-      >
-        Prev date
-      </span>
+        })} 
+      />
       <span className="nav-current">{currentString}</span>
-      <span
+      <i  
         onClick={next}
-        className={classnames('nav-next', {
-            'nav-disabled': isNextDisabled,
-        })}
-      >
-        Next date
-      </span>
+        className={classnames('nav-next far fa-arrow-alt-circle-right', {
+          'nav-disabled': isNextDisabled,
+      })}
+      />
     </div>
   );
 }

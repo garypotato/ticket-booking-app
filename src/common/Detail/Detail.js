@@ -35,7 +35,7 @@ const Detail = (props) => {
         <div className="middle">
           <p className="train-name">{trainNumber}</p>
           <p className="train-mid">{props.children}</p>
-          <p className="train-time">Travelling Time {durationStr}</p>
+          <p className="train-time">Travelling Time <br/>{durationStr}</p>
         </div>
         <div className="right">
           <p className="city">{arriveStation}</p>

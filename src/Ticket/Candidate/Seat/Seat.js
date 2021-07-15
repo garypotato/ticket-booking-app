@@ -23,7 +23,9 @@ const Seat = (props) => {
           <i>$</i>
           {priceMsg}
         </span>
-        <span className="btn">{expanded ? 'Close' : 'View'}</span>
+        <span className="btn">
+          {expanded ? 'Close' : 'View'}
+        </span>
         <span className="num">{ticketsLeft}</span>
       </div>
       <div

@@ -1,11 +1,13 @@
 td {
-  background: #fff;
+  width: 40px;
+  height: 40px;
+  margin: 0 2px 2px 0;
+
+  text-align: center;
+
   color: #000;
   border: 2.5px solid #e3e3e3;
-  text-align: center;
-  margin: 0 2px 2px 0;
-  height: 40px;
-  width: 40px;
+  background: #fff;
 }
 
 td.null {
@@ -13,7 +15,17 @@ td.null {
 }
 
 td.disabled {
+  cursor: not;
+
   color: #a7a7a7;
   background: #f3f3f3;
-  cursor: not
+  ;
+}
+
+.fas.fa-sun {
+  font-size: 25px;
+
+  margin-top: 4px;
+
+  color: var(--primary);
 }
