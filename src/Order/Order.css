@@ -6,7 +6,9 @@
   left: 0;
 }
 
-
+.take-up-space {
+  height: 60px;
+}
 
 .fas.fa-train {
   font-size: 35px;

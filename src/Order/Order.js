@@ -137,6 +137,9 @@ const Order = (props) => {
         {passengers.length > 0 && (
           <Choose passengers={passengers} {...chooseCbs} />
         )}
+        {/* <div className="take-up-space">
+          Take up Account Space to show Choose Seat
+        </div> */}
         <Account length={passengers.length} price={price} />
         <Menu show={isMenuVisible} {...menu} {...menuCbs} />
       </div>
