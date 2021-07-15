@@ -116,9 +116,9 @@
   background: var(--lighter);
 }
 
-.passenger .items .item .input.name {
+/* .passenger .items .item .input.name {
   padding-right: 53px;
-}
+} */
 
 .passenger .items .item.arrow::after {
   position: absolute;
