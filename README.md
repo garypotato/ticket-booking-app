@@ -8,7 +8,8 @@ Please have a look the home page
 ## Fetch Mock Data
 This app is using mock data(sadly stored under Public file), so the app is showing the same data in some places. However, the app have to use Fetch api to get different data and present to the users.
 ## What I am happy with 
-### 1. use useCallback, useMemo and memo to prevent unnecessary renders, and proptypes to define the type of props.
+### 1. web optimisation
+use useCallback, useMemo and memo to prevent unnecessary renders, and proptypes to define the type of props.
 ### 2. the citySelector component  
 Navigate to cities by clicking the alphabet list at the right hand side, largely enhances user experience. 
 This can be easily done by using data attributes in each city section.  
