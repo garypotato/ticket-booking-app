@@ -114,7 +114,7 @@ const Home = (props) => {
         <Submit />
         <div className="link-wrapper">
           <button type="button" className="button">
-            <a className="gitHub-link" href="https://github.com/garypotato/train_Ticket"> 
+            <a className="gitHub-link" href="https://github.com/garypotato/ticket-booking-app"> 
                 About this App
             </a>
           </button>
