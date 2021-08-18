@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import {useCallback, useMemo} from "react"
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
@@ -102,7 +103,7 @@ const Home = (props) => {
   }, []);
 
   return (
-    <div> 
+    <div className="home-wrapper"> 
       <div className="header-wrapper">
         <Header title="Please use Mobile Mode" onBack={onBack}/>
       </div>
@@ -111,7 +112,15 @@ const Home = (props) => {
         <DepartDate time={departDate} {...departDateCbs}/>
         <HighSpeed highSpeed={highSpeed} {...highSpeedCbs}/>
         <Submit />
+        <div className="link-wrapper">
+          <button type="button" className="button">
+            <a className="gitHub-link" href="https://github.com/garypotato/train_Ticket"> 
+                About this App
+            </a>
+          </button>
+        </div>
       </form>
+      
       <CitySelector 
         show={isCitySelectorVisible}
         isLoading={isLoadingCityData}
@@ -123,6 +132,7 @@ const Home = (props) => {
         {...dateSelectorCbs}
         onSelect={onSelectDate}
       />
+      
     </div>
   )
 }

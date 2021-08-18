@@ -1,27 +1,39 @@
 .header {
-  height: 44px;
-  line-height: 44px;
-  min-width: 240px;
-  background: #1ba9ba;
-  color: #fff;
   font-size: 18px;
-  text-align: center;
+  line-height: 44px;
+
   position: relative;
+
+  min-width: 240px;
+  height: 44px;
   padding: 0 15px;
+
+  text-align: center;
+
+  color: var(--light);
+  background: var(--sed);
 }
 
 .header-back {
   position: absolute;
-  left: 0;
+  top: 12px;
+  left: 12px;
+
   width: 42px;
   height: 42px;
+
+  color: var(--light);
 }
+
 .header-title {
-  max-width: 216px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: inline-block;
   font-size: 100%;
+
+  display: inline-block;
+  overflow: hidden;
+
+  max-width: 216px;
   margin: 0;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }

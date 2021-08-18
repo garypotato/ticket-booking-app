@@ -1,25 +1,39 @@
 .city-ul {
-  list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+
+  list-style: none;
 }
 
 .city-li {
-  display: block;
-  height: 44px;
   line-height: 44px;
-  padding-left: 25px;
-  border-bottom: 1px solid #e3e6e9;
+
+  display: block;
+
+  height: 44px;
   margin-left: 15px;
+  padding-left: 25px;
+
+  color: var(--primary);
+  border-bottom: 1px solid var(--fourth);
+  background-color: var(--light);
 }
+
 .city-li:first-child {
-  height: 30px;
+  font-size: 17px;
   line-height: 30px;
-  font-size: 12px;
-  background-color: #f2f8fb;
-  padding: 0 15px;
-  margin-left: 0;
+
   position: sticky;
   top: -1px;
+
+  height: 30px;
+  margin-left: 0;
+  padding: 0 15px;
+
+  border-bottom: 0;
+  background-color: var(--lighter);
+}
+
+.city-li:last-child {
   border-bottom: 0;
 }

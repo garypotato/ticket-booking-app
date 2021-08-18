@@ -1,10 +1,15 @@
 .header-wrapper {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
   z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
 }
-.app-content {
-  padding-bottom: 60px;
+
+.take-up-space {
+  height: 60px;
+}
+
+.fas.fa-train {
+  font-size: 35px;
 }

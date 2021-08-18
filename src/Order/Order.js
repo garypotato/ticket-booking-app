@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { connect } from "react-redux"
 import {useCallback, useEffect, useMemo} from "react"
 import URI from 'urijs';
@@ -67,7 +68,6 @@ const Order = (props) => {
   }, []);
 
   useEffect(() => {
-    var a ='123'
     if (!searchParsed) {
       return;
   }
@@ -130,16 +130,16 @@ const Order = (props) => {
           arriveStation={arriveStation}
           durationStr={durationStr}
         >
-          <span
-            style={{ display: 'block' }}
-            className="train-icon"
-          ></span>
+          <i className="fas fa-train" />
         </Detail>
         <Ticket price={price} type={seatType} />
         <Passengers passengers={passengers} {...passengersCbs} />
         {passengers.length > 0 && (
           <Choose passengers={passengers} {...chooseCbs} />
         )}
+        <div className="take-up-space">
+          Take up Account Space to show Choose Seat
+        </div>
         <Account length={passengers.length} price={price} />
         <Menu show={isMenuVisible} {...menu} {...menuCbs} />
       </div>

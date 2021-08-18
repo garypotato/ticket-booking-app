@@ -28,9 +28,9 @@ const ScheduleRow = (props) => {
             })}
         >
             {isDepartStation
-                ? 'A'
+                ? 'D'
                 : isArriveStation
-                ? 'B'
+                ? 'T'
                 : leftPad(index, 2, 0)}
         </div>
         <div
@@ -74,22 +74,22 @@ const Schedule = (props) => {
 
   useEffect(() => {
     const data = [{
-      station: '北京南',
+      station: 'Sydney',
       arriveTime: null,
       departTime: '07:20',
       stay: null,
     }, {
-      station: '天津南',
+      station: 'Albury',
       arriveTime: '07:54',
       departTime: '07:56',
       stay: 2,
     }, {
-      station: '南京南',
+      station: 'Melbourne',
       arriveTime: '11:51',
       departTime: '11:53',
       stay: 2,
     }, {
-      station: '上海虹桥',
+      station: 'Warrnambool',
       arriveTime: '13:08',
       departTime: null,
       stay: null,

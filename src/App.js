@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import './App.css';
 import Home from "./Home/Home"
 import Query from "./Query/Query"
 import Ticket from "./Ticket/Ticket"

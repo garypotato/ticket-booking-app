@@ -161,25 +161,25 @@ const BottomModal = (props) => {
 
   const optionGroup = [
     {
-        title: '坐席类型',
+        title: 'Seat Class',
         options: ticketTypes,
         checkedMap: localCheckedTicketTypes,
         dispatch: localCheckedTicketTypesDispatch,
     },
     {
-        title: '车次类型',
+        title: 'Train',
         options: trainTypes,
         checkedMap: localCheckedTrainTypes,
         dispatch: localCheckedTrainTypesDispatch,
     },
     {
-        title: '出发车站',
+        title: 'Starting Station',
         options: departStations,
         checkedMap: localCheckedDepartStations,
         dispatch: localCheckedDepartStationsDispatch,
     },
     {
-        title: '到达车站',
+        title: 'Terminal',
         options: arriveStations,
         checkedMap: localCheckedArriveStations,
         dispatch: localCheckedArriveStationsDispatch,
@@ -200,7 +200,7 @@ const BottomModal = (props) => {
               Reset Filter
             </span>
             <span className="ok" onClick={sure}>
-                Confrim
+                Confirm
             </span>
           </div>
           <div className="options">
@@ -208,14 +208,14 @@ const BottomModal = (props) => {
                 <Option {...group} key={group.title} />
             ))}
             <Slider
-              title="出发时间"
+              title="Depart Time(Only work in Mobile Mode)"
               currentStartHours={localDepartTimeStart}
               currentEndHours={localDepartTimeEnd}
               onStartChanged={setLocalDepartTimeStart}
               onEndChanged={setLocalDepartTimeEnd}
             />
             <Slider
-              title="到达时间"
+              title="Arrive Time(Only work in Mobile Mode)"
               currentStartHours={localArriveTimeStart}
               currentEndHours={localArriveTimeEnd}
               onStartChanged={setLocalArriveTimeStart}

@@ -1,14 +1,17 @@
 .depart-date {
   font-size: 20px;
   line-height: 45px;
+
   height: 45px;
-  background: #fff;
-  border-bottom: 1px solid #eaeaea;
+
   text-align: left;
-  color: #333;
+
+  color: var(--primary);
+  border-bottom: 1px solid var(--thd);
 }
 
 .depart-week {
-  color: #888;
   font-size: 15px;
+
+  color: var(--thd);
 }

@@ -66,22 +66,22 @@ const Bottom = (props) => {
     <div className="bottom">
       <div className="bottom-filters">
         <span className="item" onClick={toggleOrderType}>
-            <i className="icon">&#xf065;</i>
+            <i className="icon fas fa-exchange-alt" />
             {orderType === ORDER_DEPART ? 'Order By Depart Time' : 'Order by Travel Time'}
         </span>
         <span
           className={classnames('item', { 'item-on': highSpeed })}
           onClick={toggleHighSpeed}
         >
-          <i className="icon">{highSpeed ? '\uf43f' : '\uf43e'}</i>
-          Metrol
+          <i className="icon fas fa-subway"></i>
+          Metro
         </span>
         <span
           className={classnames('item', { 'item-on': onlyTickets })}
           onClick={toggleOnlyTickets}
         >
-          <i className="icon">{onlyTickets ? '\uf43d' : '\uf43c'}</i>
-          Ticket Avaliable
+          <i className="icon fas fa-ticket-alt"></i>
+          Ticket Available
         </span>
         <span
           className={classnames('item', {
@@ -89,7 +89,7 @@ const Bottom = (props) => {
           })}
           onClick={toggleIsFiltersVisible}
         >
-          <i className="icon">{noChecked ? '\uf0f7' : '\uf446'}</i>
+          <i className="icon fas fa-filter" />
           Filters
         </span>
       </div>

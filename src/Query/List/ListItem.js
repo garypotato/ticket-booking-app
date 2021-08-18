@@ -31,31 +31,27 @@ const ListItem = memo(function ListItem(props) {
           <a href={url}>
               <span className="item-time">
                   <em>{dTime}</em>
-                  <br />
-                  <em className="em-light">
-                      {aTime} <i className="time-after">{dayAfter}</i>
+                  <em>
+                      {aTime} <span className="time-after">{dayAfter}</span>
                   </em>
               </span>
               <span className="item-stations">
-                  <em>
-                      <i className="train-station train-start">始</i>
-                      {dStation}
-                  </em>
-                  <br />
                   <em className="em-light">
-                      <i className="train-station train-end">终</i>
-                      {aStation}
+                      <i className=" fas fa-plane-departure train-icon"/>
+                      <span>{dStation}</span>
+                  </em>
+                  <em className="em-light">
+                      <i className="fas fa-plane-arrival train-icon" />
+                      <span>{aStation}</span>
                   </em>
               </span>
               <span className="item-train">
                   <em>{trainNumber}</em>
-                  <br />
-                  <em className="em-light">{time}</em>
+                  <em>{time}</em>
               </span>
               <span className="item-ticket">
                   <em>{priceMsg}</em>
-                  <br />
-                  <em className="em-light-orange">Avaliable</em>
+                  <em>Available</em>
               </span>
           </a>
       </li>

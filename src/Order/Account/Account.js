@@ -15,7 +15,6 @@ const Account = memo(function Account(props) {
           onClick={() => setExpanded(!expanded)}
         >
           <div className="money">{length * price}</div>
-          <div className="amount">Total</div>
         </div>
         <div className="button">Submit</div>
         <div

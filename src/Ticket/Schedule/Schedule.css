@@ -1,34 +1,48 @@
 .schedule .dialog {
+  font-size: 14px;
+
   position: absolute;
-  left: 30px;
-  right: 30px;
   top: 50%;
-  transform: translateY(-50%);
-  max-height: 325px;
+  right: 30px;
+  left: 30px;
+
   overflow-x: hidden;
   overflow-y: auto;
-  background: #fff;
+
+  max-height: 325px;
+
+  transform: translateY(-50%);
+
+  color: var(--sed);
   border-radius: 10px;
-  font-size: 14px;
+  background: var(--lighter);
 }
 
 .schedule .dialog h1 {
-  text-align: center;
-  color: #000;
-  padding: 15px 0 15px;
   font-size: 100%;
+
+  padding: 15px 0 15px;
+
+  text-align: center;
+
+  color: var(--primary);
 }
 
 .schedule .dialog .head {
-  color: #000;
-  border-bottom: 1px solid #1ba9ba;
   line-height: 30px;
-  padding-left: 30px;
+
   display: flex;
+
+  padding-left: 30px;
+
+  color: var(--primary);
+  border-bottom: 1px solid #1ba9ba;
+  ;
 }
 
 .schedule .dialog .station {
   flex: 4;
+
   text-align: left;
 }
 
@@ -36,61 +50,81 @@
 .schedule .dialog .arrtime,
 .schedule .dialog .stoptime {
   flex: 3;
+
   text-align: center;
 }
 
 .schedule .dialog ul {
-  list-style: none;
   margin: 0;
   padding: 0;
+
+  list-style: none;
 }
 
 .schedule .dialog li {
-  list-style: none;
+  line-height: 35px;
+
   margin: 0;
   padding: 0;
-  line-height: 35px;
+
+  list-style: none;
+
+  background-color: var(--light);
 }
 
 .schedule .dialog li .icon {
-  float: left;
-  text-align: center;
-  margin-left: 5px;
-  width: 18px;
+  font-size: 12px;
   line-height: 18px;
+
+  position: relative;
+  top: 7px;
+
+  float: left;
+
+  width: 18px;
+  margin-left: 5px;
+
+  text-align: center;
+
   color: #c7ced4;
   border: 1px solid #c7ced4;
   border-radius: 9px;
-  position: relative;
-  top: 7px;
-  font-size: 12px;
 }
 
 .schedule .dialog li .icon-red {
-  float: left;
-  text-align: center;
-  margin-left: 5px;
-  width: 18px;
+  font-size: 12px;
   line-height: 18px;
-  color: #fff;
-  border-radius: 9px;
-  background: #f30;
+
   position: relative;
   top: 7px;
-  font-size: 12px;
+
+  float: left;
+
+  width: 18px;
+  margin-left: 5px;
+
+  text-align: center;
+
+  color: #fff;
+  border: 1px solid var(--thd);
+  border-radius: 9px;
+  background: var(--primary);
 }
 
 .schedule .dialog li .row {
-  margin-left: 30px;
-  border-bottom: 0.5px solid #e1e1e1;
-  color: #000;
   display: flex;
+
+  margin-left: 30px;
+
+  border-bottom: .5px solid var(--fourth);
 }
 
 .schedule .dialog .grey {
-  color: #888 !important;
+  color: var(--fourth) !important;
 }
 
 .schedule .dialog .red {
-  color: #f30 !important;
+  font-weight: bold;
+
+  color: var(--primary) !important;
 }

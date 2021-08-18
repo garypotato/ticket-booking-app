@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { memo, useState, useMemo, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import leftPad from 'left-pad';
@@ -113,6 +114,7 @@ const Slider = memo(function Slider(props) {
     }, [winSize.width]);
 
     useEffect(() => {
+        if(startHandle.current){
         startHandle.current.addEventListener(
             'touchstart',
             onStartTouchBegin,
@@ -128,29 +130,37 @@ const Slider = memo(function Slider(props) {
             onEndTouchBegin,
             false
         );
-        endHandle.current.addEventListener('touchmove', onEndTouchMove, false);
+        endHandle.current.addEventListener(
+            'touchmove', 
+            onEndTouchMove, 
+            false
+        );}
+        
 
         return () => {
-            startHandle.current.removeEventListener(
-                'touchstart',
-                onStartTouchBegin,
-                false
-            );
-            startHandle.current.removeEventListener(
-                'touchmove',
-                onStartTouchMove,
-                false
-            );
-            endHandle.current.removeEventListener(
-                'touchstart',
-                onEndTouchBegin,
-                false
-            );
-            endHandle.current.removeEventListener(
-                'touchmove',
-                onEndTouchMove,
-                false
-            );
+            if(startHandle.current) {
+                startHandle.current.removeEventListener(
+                    'touchstart',
+                    onStartTouchBegin,
+                    false
+                );
+                startHandle.current.removeEventListener(
+                    'touchmove',
+                    onStartTouchMove,
+                    false
+                );
+                endHandle.current.removeEventListener(
+                    'touchstart',
+                    onEndTouchBegin,
+                    false
+                );
+                endHandle.current.removeEventListener(
+                    'touchmove',
+                    onEndTouchMove,
+                    false
+                );
+            }
+            
         };
     });
 

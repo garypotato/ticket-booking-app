@@ -29,16 +29,5 @@ export const mockTicketData = {
         name: 'Normal Booking',
         desc: 'Get Ticket within 2 days'
     }]
-  }, {
-    type: 'First Class',
-    priceMsg: '1403.5',
-    ticketsLeft: '5 tickets',
-    channels: [{
-        name: 'Fast Booking',
-        desc: 'Get Ticket right now'
-    }, {
-        name: 'Normal Booking',
-        desc: 'Get Ticket within 2 days'
-    }]
   }]
 }

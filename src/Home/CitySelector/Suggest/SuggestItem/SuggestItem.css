@@ -1,5 +1,9 @@
 .city-suggest-li {
-  list-style: none;
   padding: 5px 9px 5px 15px;
-  border-bottom: 1px solid #e3e6e9;
+
+  list-style: none;
+
+  color: var(--primary);
+  border-bottom: 1px solid var(--fourth);
+  background-color: var(--light);
 }

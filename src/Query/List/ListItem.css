@@ -1,86 +1,147 @@
 .list-item {
-  overflow: hidden;
-  padding: 10px 10px 10px 0;
-  border-bottom: 1px solid #ececec;
-  list-style: none;
-  margin: 0;
+  font-size: 18px;
+
+  margin-top: 5px;
+
+  border-bottom: 1px solid var(--fourth);
+  background-color: var(--light);
 }
 
 .list-item a {
-  display: block;
-  color: #333;
+  display: flex;
+
+  text-decoration: none;
+
+  color: var(--sed);
 }
 
-.list-item a::after {
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  overflow: hidden;
-  font-size: 0;
-  content: '';
+.list-item a span {
+  display: flex;
+  flex-direction: column;
 }
 
-.list-item em,
-.list-item i {
+.list-item a span em,
+.list-item a span em i {
   font-style: normal;
 }
 
 .item-time {
-  float: left;
-  width: 18%;
+  width: 20%;
+  margin-top: 3px;
 }
 
-.item-stations {
-  float: left;
-  width: 33%;
-}
+.item-time em:last-child {
+  font-size: 16px;
 
-.item-train {
-  float: left;
-  width: 21%;
-}
-
-.item-ticket {
-  float: left;
-  width: 28%;
-  text-align: right;
-  color: #f90;
-}
-
-.em-light {
-  color: #666;
-  font-size: 14px;
-}
-
-.em-light-orange {
-  color: #f90;
-  font-size: 14px;
-}
-
-.train-station {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 5px;
-  border-radius: 10px;
-  border: 1px solid #3cc;
-  font-size: 12px;
-  color: #3cc;
-  text-align: center;
-  font-family: '宋体';
-}
-
-.train-start {
-  border: 1px solid #3cc;
-  color: #3cc;
-}
-
-.train-end {
-  border: 1px solid #39c381;
-  color: #39c381;
+  display: flex;
 }
 
 .time-after {
-  color: red;
+  color: var(--warning);
 }
+
+.item-stations {
+  width: 35%;
+  margin-top: 2px;
+  padding-left: 30px;
+}
+
+.em-light {
+  font-size: 18px;
+
+  display: flex;
+}
+
+.train-icon {
+  font-size: 12px;
+
+  display: flex;
+  align-items: center;
+
+  margin-right: 5px;
+}
+
+.item-stations em:last-child {
+  padding-left: 5px;
+}
+
+.item-train {
+  width: 25%;
+  margin-top: 3px;
+}
+
+.item-train em:first-child {
+  font-size: 20px;
+}
+.item-train em:last-child {
+  font-size: 14px;
+
+  padding-left: 5px;
+}
+
+.item-ticket {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+
+  width: 20%;
+  margin: 3px 5px 0 0;
+}
+
+.item-ticket em:first-child {
+  font-size: 22px;
+
+  color: var(--primary);
+}
+
+.item-ticket em:last-child {
+  font-size: 12px;
+
+  color: var(--primary);
+}
+
+@media (max-width:375px) {
+  .item-time {
+    width: 17%;
+  }
+  .item-time em {
+    font-size: 18px !important;
+  }
+  .item-time em:last-child {
+    font-size: 15px !important;
+
+    display: flex;
+    justify-content: flex-start;
+
+    padding-left: 0;
+  }
+
+  .item-stations em:last-child {
+    padding-left: 0;
+  }
+}
+
+@media (max-width:320px) {
+  .list-item a span,
+  .list-item a span em {
+    font-size: 13px !important;
+  }
+
+  .item-time {
+    width: 19%;
+  }
+
+  .item-time em:last-child {
+    padding-left: 0;
+  }
+
+  .item-train em:last-child {
+    font-size: 10px !important;
+  }
+
+  .item-ticket em:last-child {
+    font-size: 10px !important;
+  }
+}
+
+

@@ -1,46 +1,58 @@
 .date-table {
   width: 100%;
   margin-bottom: 15px;
-  border-collapse: collapse;
+
   border-spacing: 0;
+  border-collapse: collapse;
+
   text-align: center;
 }
 
 .date-table tr,
 .date-table td,
 .date-table th {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .date-table thead td {
   height: 39px;
-  background-color: #fff;
+
+  background-color: var(--fourth);
 }
 
 .date-table thead h5 {
   font-size: 18px;
-  line-height: 39px;
-  text-align: center;
   font-weight: bold;
-  padding: 0;
+  line-height: 39px;
+
   margin: 0;
+  padding: 0;
+
+  text-align: center;
+
+  color: var(--primary);
   border: 1px solid #cdcdcd;
 }
 
 .date-table-weeks {
   font-size: 14px;
+
   height: 23px;
-  color: #8c8c8c;
-  background-color: #f3f3f3;
+
   text-align: center;
-  border-left: 1px solid #ccc;
+
+  color: #8c8c8c;
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #cacaca;
+  border-left: 1px solid #ccc;
+  background-color: #f3f3f3;
 }
 
+
 .date-table .weekend {
-  color: #ff9036 !important;
   font-weight: bold;
+
+  color: var(--sed) !important;
 }
 

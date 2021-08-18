@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import {memo, useEffect, useState, useMemo} from "react"
 import PropTypes from 'prop-types';
 
@@ -13,7 +14,7 @@ const Suggest = (props) => {
     fetch('/mock/search.json')
       .then(res => res.json())
       .then(data => {
-        const { result, searchKey: sKey } = data;
+        const { result } = data;
 
         // if (sKey === searchKey) {
         //   setResult(result);

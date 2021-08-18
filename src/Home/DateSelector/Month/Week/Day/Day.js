@@ -3,7 +3,6 @@ import classnames from 'classnames';
 
 import { h0 } from "../../../../../utilities/h0GetDate"
 import "./Day.css"
-
 function Day(props) {
   const { day, onSelect} = props;
 
@@ -23,11 +22,14 @@ function Day(props) {
       classes.push('weekend');
   }
 
-  const dateString = now === day ? 'Today' : new Date(day).getDate();
+  const dateString = now === day ? 
+    <i className="fas fa-sun"></i>
+    : new Date(day).getDate();
 
+ 
   return (
       <td className={classnames(classes)} onClick={() => onSelect(day)}>
-          {dateString}
+            {dateString}
       </td>
   );
 }
