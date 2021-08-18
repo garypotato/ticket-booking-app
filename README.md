@@ -3,7 +3,7 @@ What I want to do in this app is simple but informative. This website is based o
 Url: https://main.d22uf4v566qg8b.amplifyapp.com/
 ##  About this app
 This app is based on React, Redux, React-redux, redux-thunk, and of course, some third libraries like classnames.
-Please have a look the home page :stuck_out_tongue_winking_eye: 
+Please have a look the home page :stuck_out_tongue_winking_eye:  
 ![image](https://user-images.githubusercontent.com/72715709/129852961-29221c59-7125-40e8-9cfa-efbb71e3cee1.png)
 ## Fetch Mock Data
 This app is using mock data(sadly stored under Public file), so the app is showing the same data in some places. However, the app have to use Fetch api to get different data and present to the users.
