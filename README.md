@@ -1,6 +1,6 @@
 # train-ticket booking application
-What I want to do in this app is simple but informative. This website is based on mobile-first design so the font-size:pencil2: will change according to different screen width. Users can still use PC brower but some functions will not working well. However, I am happy with that because I focus on user experiense:ghost:.
-Url: https://main.d22uf4v566qg8b.amplifyapp.com/
+What I want to do in this app is simple but informative. This website is based on mobile-first design so the font-size:pencil2: will change according to different screen width. Users can still use PC brower but some functions will not working well. However, I am happy with that because I focus on user experiense:ghost:.  
+:point_right: https://main.d22uf4v566qg8b.amplifyapp.com/
 ##  About this app
 This app is based on React, Redux, React-redux, redux-thunk, and of course, some third libraries like classnames.
 Please have a look the home page :stuck_out_tongue_winking_eye:  
