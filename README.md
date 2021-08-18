@@ -4,5 +4,6 @@ What I want to do in this app is simple but informative. This website is based o
 This app is based on React, Redux, React-redux, redux-thunk. Of course, some third libraries like classnames.
 ## What I am happy with 
 ### * the cityselector component
-
+** ok
+*** ase
 
