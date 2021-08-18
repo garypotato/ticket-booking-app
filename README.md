@@ -17,13 +17,13 @@ Navigate to cities by clicking the alphabet list at the right hand side, largely
 This can be easily done by using data attributes in each city section.  
 ![cityselector](https://user-images.githubusercontent.com/72715709/129853368-d3a96e07-a7ca-4052-9a57-2b1509ff2984.gif)
 ### 3. the dateSelector component  
-It always show the current month and next following two months and highlight the weekends. You can find that the previous date are in grey color that means user couldn't select it.  
-There is no third party libraries in this section, feel free to have the origin code.  
+It always show the current month and next following two months and highlight the weekends. You can find that the eariler date are in grey color that means user couldn't select it.  
+There is no third party libraries in this section, feel free to have the origin code:sunglasses:.  
 ![dateselector](https://user-images.githubusercontent.com/72715709/129857247-0dc4756a-5cea-4cab-bc97-3c3723fae0b5.gif)
 ### 4. the Filters component
 Users can sort the ticket by departure, travelling time and ticket type. The filters can help user to book the ticket they need easily.  
 I also created a time slider that users can choose the departure and arrive time they want. All the filters all be stored in Redux.
-There is no third party libraries in this section, feel free to have the origin code.  
+There is no third party libraries in this section, feel free to have the origin code:sunglasses:.  
 ![filter](https://user-images.githubusercontent.com/72715709/129864097-529178ed-e760-4e21-892e-64a1f068b123.gif)
 ### 5. timetable for each train
 The timetable shows all the stops while highlight the departure stop and destination. 
