@@ -1,28 +1,8 @@
 {
   "hotCities": [{
       "name": "Sydney"
-  }, {
-      "name": "上海"
-  }, {
-      "name": "广州"
-  }, {
-      "name": "深圳"
-  }, {
+  },  {
       "name": "Melbroune"
-  }, {
-      "name": "武汉"
-  }, {
-      "name": "杭州"
-  }, {
-      "name": "西安"
-  }, {
-      "name": "郑州"
-  }, {
-      "name": "成都"
-  }, {
-      "name": "长沙"
-  }, {
-      "name": "天津"
   }],
   "cityList": [{
       "citys": [{
