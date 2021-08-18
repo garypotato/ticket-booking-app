@@ -3,6 +3,7 @@ What I want to do in this app is simple but informative. This website is based o
 :point_right: https://main.d22uf4v566qg8b.amplifyapp.com/
 ##  About this app
 ![](https://img.shields.io/badge/Build-React-green)
+![](https://img.shields.io/badge/Build-Redux-blue)  
 This app is based on React, Redux, React-redux, redux-thunk, and of course, some third libraries like classnames.
 Please have a look the home page :stuck_out_tongue_winking_eye:  
 ![image](https://user-images.githubusercontent.com/72715709/129852961-29221c59-7125-40e8-9cfa-efbb71e3cee1.png)
