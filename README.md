@@ -1,9 +1,9 @@
 # train-ticket booking application
-What I want to do in this app is simple but informative. This website is based on mobile-first design so the font-size:pencil2: will change according to different screen width. Users can still use PC brower but some functions will not working well. However, I am happy with that because I focus on user experiense.
+What I want to do in this app is simple but informative. This website is based on mobile-first design so the font-size:pencil2: will change according to different screen width. Users can still use PC brower but some functions will not working well. However, I am happy with that because I focus on user experiense:ghost:.
 Url: https://main.d22uf4v566qg8b.amplifyapp.com/
 ##  About this app
 This app is based on React, Redux, React-redux, redux-thunk, and of course, some third libraries like classnames.
-Please have a look the home page  
+Please have a look the home page :stuck_out_tongue_winking_eye: 
 ![image](https://user-images.githubusercontent.com/72715709/129852961-29221c59-7125-40e8-9cfa-efbb71e3cee1.png)
 ## Fetch Mock Data
 This app is using mock data(sadly stored under Public file), so the app is showing the same data in some places. However, the app have to use Fetch api to get different data and present to the users.
@@ -22,7 +22,7 @@ There is no third party libraries in this section, feel free to have the origin 
 Users can sort the ticket by departure, travelling time and ticket type. The filters can help user to book the ticket they need easily.  
 I also created a time slider that users can choose the departure and arrive time they want. All the filters all be stored in Redux.
 There is no third party libraries in this section, feel free to have the origin code.  
-![fiilters](https://user-images.githubusercontent.com/72715709/129859056-faf24444-272c-4838-a8b3-8a4b04dc58f4.gif)
+![filter](https://user-images.githubusercontent.com/72715709/129864097-529178ed-e760-4e21-892e-64a1f068b123.gif)
 ### 5. timetable for each train
 The timetable shows all the stops while highlight the departure stop and destination. 
 There is no third party libraries in this section, feel free to have the origin code.  
