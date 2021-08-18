@@ -1,5 +1,5 @@
 # train-ticket booking application
-What I want to do in this app is simple but informative. This website is based on mobile-first design so the font-size:pencil2: will change according to different screen width. Users can still use PC brower but some functions will not working well. However, I am happy with that because I focus on user experiense:ghost:.  
+What I want to do in this app is simple but informative. This website is based on mobile-first design so the font-size:pencil2: will change according to different screen width. Users can still use PC brower but some functions will be not working well. However, I am happy with that because I focus on user experiense:ghost:.  
 :point_right: https://main.d22uf4v566qg8b.amplifyapp.com/
 ##  About this app
 ![](https://img.shields.io/badge/Build-React-green)
