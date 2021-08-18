@@ -6,7 +6,7 @@ This app is based on React, Redux, React-redux, redux-thunk, and of course, some
 Please have a look the home page :stuck_out_tongue_winking_eye:  
 ![image](https://user-images.githubusercontent.com/72715709/129852961-29221c59-7125-40e8-9cfa-efbb71e3cee1.png)
 ## Fetch Mock Data
-This app is using mock data(sadly stored under Public file), so the app is showing the same data in some places. However, the app have to use Fetch api to get different data and present to the users.
+This app is using mock data(sadly stored under Public file:disappointed_relieved:), so the app is showing the same data in some places:neutral_face:. However, the app have to use Fetch api to get different data and present to the users:smirk:.
 ## What I am happy with 
 ### 1. web optimisation
 use useCallback, useMemo and memo to prevent unnecessary renders, and proptypes to define the type of props.
