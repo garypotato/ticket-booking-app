@@ -22,11 +22,11 @@ There is no third party libraries in this section, feel free to have the origin 
 ![dateselector](https://user-images.githubusercontent.com/72715709/129857247-0dc4756a-5cea-4cab-bc97-3c3723fae0b5.gif)
 ### 4. the Filters component
 Users can sort the ticket by departure, travelling time and ticket type. The filters can help user to book the ticket they need easily.  
-I also created a time slider that users can choose the departure and arrive time they want. All the filters all be stored in Redux.
+I also created a time slider that users can choose the departure and arrive time they want. All the filters all be stored in Redux.  
 There is no third party libraries in this section, feel free to have the origin code:sunglasses:.  
 ![filter](https://user-images.githubusercontent.com/72715709/129864097-529178ed-e760-4e21-892e-64a1f068b123.gif)
 ### 5. timetable for each train
-The timetable shows all the stops while highlight the departure stop and destination. 
+The timetable shows all the stops while highlight the departure stop and destination.  
 There is no third party libraries in this section, feel free to have the origin code:sunglasses:.  
 ![timetable](https://user-images.githubusercontent.com/72715709/129859969-595d6742-bb1e-4bdb-bec9-4758ac5e769d.gif)
 ### 6. Ticket booking
