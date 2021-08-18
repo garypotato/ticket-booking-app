@@ -1,3 +1,4 @@
-# train-ticket online booking
-## https://img.shields.io/appveyor/build/Node.js/Javascript
+# train-ticket booking application
+This mobile-friendly app is based on React and Redux
+## 
 
