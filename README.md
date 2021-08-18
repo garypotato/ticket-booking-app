@@ -8,7 +8,7 @@ Please have a look the home page
 This app is using mock data(sadly stored under Public file), so the app is showing the same data everywhere. However, the app have to use Fetch api to get data.
 ## What I am happy with 
 ### 1. the cityselector component  
-#### * search input
+Navigate to cities by clicking the alphabet list at the right hand side, enhance user experience.
 ![cityselector](https://user-images.githubusercontent.com/72715709/129853368-d3a96e07-a7ca-4052-9a57-2b1509ff2984.gif)
 
 
