@@ -1,2 +1,3 @@
 # train-ticket online booking
 I really love React and Redux, there is no doubt I used them again in this project:satisfied:.
+The data is a bit boring as I used mock data(sadly stored under the Pulic file:anguished:)
